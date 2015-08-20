@@ -38,7 +38,6 @@ const App = () => (
               <Route path="/admin" element={<Admin />} />
               <Route path="/auth" element={<Auth />} />
               <Route path="*" element={<NotFound />} />
-              
             </Routes>
           </AnimatePresence>
         </BrowserRouter>
